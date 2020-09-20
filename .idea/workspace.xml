@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1cb133-6ad3-42ca-9202-9aed6ededf17" name="Default Changelist" comment="">
+    <list default="true" id="9ad01f4b-2d11-4175-b97f-6715308a07bc" name="Default Changelist" comment="feat: add index.html">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,23 +10,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1hmg3PB051ihBKtLrB6jDqJEx3w" />
+  <component name="ProjectId" id="1hmmoTo9zaNIFB7ZS1fIAmRAAbt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,12 +50,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fe1cb133-6ad3-42ca-9202-9aed6ededf17" name="Default Changelist" comment="" />
-      <created>1600621481309</created>
+      <changelist id="9ad01f4b-2d11-4175-b97f-6715308a07bc" name="Default Changelist" comment="" />
+      <created>1600624816330</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600621481309</updated>
-      <workItem from="1600621482384" duration="1491000" />
+      <updated>1600624816330</updated>
+      <workItem from="1600624817364" duration="1784000" />
     </task>
     <servers />
   </component>
@@ -52,21 +63,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="205" y="104" key="MergeDialog" timestamp="1600622973230">
+    <state x="601" y="151" key="CommitChangelistDialog2" timestamp="1600626749217">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="205" y="104" key="MergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600622973230" />
-    <state x="662" y="344" key="MultipleFileMergeDialog" timestamp="1600622973248">
+    <state x="601" y="151" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1600626749217" />
+    <state x="769" y="286" key="RollbackChangesDialog" timestamp="1600625393386">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="662" y="344" key="MultipleFileMergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600622973248" />
-    <state x="624" y="316" key="Vcs.Push.Dialog.v2" timestamp="1600623002750">
+    <state x="769" y="286" key="RollbackChangesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600625393386" />
+    <state x="772" y="296" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600625418296">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="624" y="316" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1600623002750" />
-    <state x="772" y="296" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600621631901">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="772" y="296" key="git4idea.branch.GitSmartOperationDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600621631901" />
+    <state x="772" y="296" key="git4idea.branch.GitSmartOperationDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600625418296" />
   </component>
 </project>
