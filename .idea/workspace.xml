@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe1cb133-6ad3-42ca-9202-9aed6ededf17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/cv.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -39,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600621481309</updated>
-      <workItem from="1600621482384" duration="894000" />
+      <workItem from="1600621482384" duration="1491000" />
     </task>
     <servers />
   </component>
@@ -47,6 +52,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="205" y="104" key="MergeDialog" timestamp="1600622973230">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="205" y="104" key="MergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600622973230" />
+    <state x="662" y="344" key="MultipleFileMergeDialog" timestamp="1600622973248">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="662" y="344" key="MultipleFileMergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600622973248" />
+    <state x="624" y="316" key="Vcs.Push.Dialog.v2" timestamp="1600623002750">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="624" y="316" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1600623002750" />
     <state x="772" y="296" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600621631901">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
