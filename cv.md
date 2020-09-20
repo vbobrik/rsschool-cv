@@ -63,4 +63,49 @@ Good knowledge of QA processes.
    })
    ```
 ------
-
+## Experience
+### Web Trader Application
+__Responsibilities__:  
+*	Write and update test scripts (JavaScript);
+*	Maintenance test framework;
+*	Make test automation reports;
+*	Run builds using Teamcity;
+*	UI, E2E testing (Cucumber, Protractor, Jasmine, Selenium). 
+### API automation test
+__Responsibilities__:  
+*	Development of test scripts (KOTLIN, testNG, REST Assured);
+*	Run builds using Jenkins, view reports using Allure.
+### 3D-modelweb app
+__Responsibilities__: 
+*	GUI and functional testing;
+*	Work with OBJ, MTL, GLTF, PNG, JPG, SVG files;
+*	Checking of bundles after 3D models export;
+*	View queues in RabbitMQ, emulate message sending;
+*	Checking Business Requirements;
+*	Work with Unity services;
+*	Integration testing;
+*	Software testing fundamentals.
+### Platform
+__Responsibilities__: 
+*	Regression using test cases;
+*	API Testing (postman);
+*	Checking/modifying data in MongoDB;
+*	Firmware and registration of devices;
+*	Work with Linux (putty);
+*	Google Analytics;
+*	Tracking errors using logs (kibana, redash).
+### CRM-system
+__Responsibilities__: 
+*	Work on ScrumMethodology;
+*	Testing (AT, MAT, smoke) based on requirements;
+*	Functional testing;
+*	Testing of user interface;
+*	Writing documentation (checklists, test cases).
+------
+## Education
+* BSPU (higher education)
+* Software testing courses
+* Automation testing courses
+------
+## English
+Pre-Intermediate level
