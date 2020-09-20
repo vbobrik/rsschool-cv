@@ -1,0 +1,92 @@
+Index: cv.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Valentina Bobrik\n#### QA Automation Engineer\n#### Minsk, Belarus. Phone +375295969503 \n## Summary\nQA Automation Engineer with skills in E2E testing, API testing and experience in manual and automated testing, testing against NoSQL data storages.\nGood knowledge of QA processes.\n------\n## Skills\n*\tAutomation/manual testing;\n*\tJira, Redmine, Confluence;\n*\tKibana, Redash (logs);\n*\tMongoDB (SQL – basic knowledge);\n*\tJenkins;\n*\tJavaScript;\n*\tDevTools (Network, Console, Elements, Application);\n*\tHTML, CSS (basic);\n*\tAPITesting (Postman, Swagger);\n*\tMicrosoft Azure;\n*\tPutty (Linux);\n*\tWindows, MacOs;\n*\tGIT;\n*\tTestNG, Rest Assured;\n*\tJava (basic knowledge);\n*\tSelenium WebDriver;\n*\tCucumber;\n*\tProtractor, Jasmine;\n*\tPuppeteer, Chai;\n*\tAxios\n*\tXray plugin for execution and storing tests;\n*\tNodeJS;\n*\tAsync JS.\n------\n## Code examples:\n1. `console.log('Any example')`\n2. `console.log('Any example2')`\n3. ```\n   describe('Test case №1, verification of onliner page:', function () {\n        it('go to catalog on the onliner and verify title', async function () {\n          expect(await basePage.goToCatalog()).toMatch('Каталог Onliner', 'The title is not \"Каталог Onliner\"');\n        })\n      \n        it('go to \"Mobile phones\" tab', async function () {\n          await basePage.goToMobilePhones();\n          expect(await basePage.getPageTitle()).toContain('Мобильный телефон', 'The title doesn\\'t contain \"Мобильный телефон\"');\n          expect(await basePage.getPageHeader()).toMatch('Мобильные телефоны', 'The header is not \"Мобильные телефоны\"');\n        })\n      \n        it('sort elements by \"HONOR\" producer', async function () {\n          const sortedPhones = await basePage.sortByProducer();\n          for await (let phone of sortedPhones) {\n            expect(phone).toContain(\"HONOR\", 'Found pages does not match goal of search \"HONOR\"');\n          }\n        })\n      \n        it('sort elements by price descending', async function () {\n          const elements = await basePage.sortByPriceDown();\n          elements.forEach((item, index) => {\n            if (index == elements.length - 1) return;\n            expect(item >= elements[index + 1]).toBeTruthy();\n            expect(elements[index]).toBeGreaterThanOrEqual(elements[index + 1], 'sort by price is absent');\n          })\n        })\n   })\n   ```\n------\n## Experience\n### Web Trader Application\n__Responsibilities__:  \n*\tWrite and update test scripts (JavaScript);\n*\tMaintenance test framework;\n*\tMake test automation reports;\n*\tRun builds using Teamcity;\n*\tUI, E2E testing (Cucumber, Protractor, Jasmine, Selenium). \n### API automation test\n__Responsibilities__:  \n*\tDevelopment of test scripts (KOTLIN, testNG, REST Assured);\n*\tRun builds using Jenkins, view reports using Allure.\n### 3D-modelweb app\n__Responsibilities__: \n*\tGUI and functional testing;\n*\tWork with OBJ, MTL, GLTF, PNG, JPG, SVG files;\n*\tChecking of bundles after 3D models export;\n*\tView queues in RabbitMQ, emulate message sending;\n*\tChecking Business Requirements;\n*\tWork with Unity services;\n*\tIntegration testing;\n*\tSoftware testing fundamentals.\n### Platform\n__Responsibilities__: \n*\tRegression using test cases;\n*\tAPI Testing (postman);\n*\tChecking/modifying data in MongoDB;\n*\tFirmware and registration of devices;\n*\tWork with Linux (putty);\n*\tGoogle Analytics;\n*\tTracking errors using logs (kibana, redash).\n### CRM-system\n__Responsibilities__: \n*\tWork on ScrumMethodology;\n*\tTesting (AT, MAT, smoke) based on requirements;\n*\tFunctional testing;\n*\tTesting of user interface;\n*\tWriting documentation (checklists, test cases).\n------\n## Education\n* BSPU (higher education)\n* Software testing courses\n* Automation testing courses\n------\n## English\nPre-Intermediate level\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cv.md	(revision 8429d740f4d13356eba76ca64cfa0b48454b0df0)
++++ cv.md	(date 1600621529450)
+@@ -30,82 +30,3 @@
+ *	NodeJS;
+ *	Async JS.
+ ------
+-## Code examples:
+-1. `console.log('Any example')`
+-2. `console.log('Any example2')`
+-3. ```
+-   describe('Test case №1, verification of onliner page:', function () {
+-        it('go to catalog on the onliner and verify title', async function () {
+-          expect(await basePage.goToCatalog()).toMatch('Каталог Onliner', 'The title is not "Каталог Onliner"');
+-        })
+-      
+-        it('go to "Mobile phones" tab', async function () {
+-          await basePage.goToMobilePhones();
+-          expect(await basePage.getPageTitle()).toContain('Мобильный телефон', 'The title doesn\'t contain "Мобильный телефон"');
+-          expect(await basePage.getPageHeader()).toMatch('Мобильные телефоны', 'The header is not "Мобильные телефоны"');
+-        })
+-      
+-        it('sort elements by "HONOR" producer', async function () {
+-          const sortedPhones = await basePage.sortByProducer();
+-          for await (let phone of sortedPhones) {
+-            expect(phone).toContain("HONOR", 'Found pages does not match goal of search "HONOR"');
+-          }
+-        })
+-      
+-        it('sort elements by price descending', async function () {
+-          const elements = await basePage.sortByPriceDown();
+-          elements.forEach((item, index) => {
+-            if (index == elements.length - 1) return;
+-            expect(item >= elements[index + 1]).toBeTruthy();
+-            expect(elements[index]).toBeGreaterThanOrEqual(elements[index + 1], 'sort by price is absent');
+-          })
+-        })
+-   })
+-   ```
+-------
+-## Experience
+-### Web Trader Application
+-__Responsibilities__:  
+-*	Write and update test scripts (JavaScript);
+-*	Maintenance test framework;
+-*	Make test automation reports;
+-*	Run builds using Teamcity;
+-*	UI, E2E testing (Cucumber, Protractor, Jasmine, Selenium). 
+-### API automation test
+-__Responsibilities__:  
+-*	Development of test scripts (KOTLIN, testNG, REST Assured);
+-*	Run builds using Jenkins, view reports using Allure.
+-### 3D-modelweb app
+-__Responsibilities__: 
+-*	GUI and functional testing;
+-*	Work with OBJ, MTL, GLTF, PNG, JPG, SVG files;
+-*	Checking of bundles after 3D models export;
+-*	View queues in RabbitMQ, emulate message sending;
+-*	Checking Business Requirements;
+-*	Work with Unity services;
+-*	Integration testing;
+-*	Software testing fundamentals.
+-### Platform
+-__Responsibilities__: 
+-*	Regression using test cases;
+-*	API Testing (postman);
+-*	Checking/modifying data in MongoDB;
+-*	Firmware and registration of devices;
+-*	Work with Linux (putty);
+-*	Google Analytics;
+-*	Tracking errors using logs (kibana, redash).
+-### CRM-system
+-__Responsibilities__: 
+-*	Work on ScrumMethodology;
+-*	Testing (AT, MAT, smoke) based on requirements;
+-*	Functional testing;
+-*	Testing of user interface;
+-*	Writing documentation (checklists, test cases).
+-------
+-## Education
+-* BSPU (higher education)
+-* Software testing courses
+-* Automation testing courses
+-------
+-## English
+-Pre-Intermediate level
