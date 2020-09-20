@@ -31,8 +31,40 @@ Good knowledge of QA processes.
 *	Async JS.
 ------
 ## Code examples:
-1. `console.log('Any example')`
-2. `console.log('Any example2')`
+1. ```
+   public String updateClient(Client client) {
+        return given()
+                .header("km-auth", getToken())
+                .header("Content-Type", "application/json")
+                .body(client)
+                .when()
+                .post(baseUrl + "/client/" + client.get_id())
+                .getBody().asString();
+    }
+   ```
+2. ```
+   public static String getToken() {
+           Response token = given().contentType("application/json")
+                   .baseUri(BASE_URI + BASE_PATH)
+                   .basePath("/session")
+                   .get();
+   
+           if (token.jsonPath().getInt("status") == 200) {
+               return token.jsonPath().getString("message.sessionToken");
+           } else {
+               JsonObject credentials = new JsonObject();
+               credentials.addProperty("password", password);
+               credentials.addProperty("username", userName);
+   
+               Response response = given()
+                       .contentType("application/json")
+                       .body(credentials)
+                       .put(BASE_URI + BASE_PATH + "/session");
+               return response.jsonPath().getString("message.sessionToken");
+           }
+       }
+
+   ```
 3. ```
    describe('Test case №1, verification of onliner page:', function () {
         it('go to catalog on the onliner and verify title', async function () {
@@ -108,4 +140,4 @@ __Responsibilities__:
 * Automation testing courses
 ------
 ## English
-Pre-Intermediate level
+Intermediate level

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1cb133-6ad3-42ca-9202-9aed6ededf17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/cv.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +39,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600621481309</updated>
-      <workItem from="1600621482384" duration="331000" />
+      <workItem from="1600621482384" duration="894000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="772" y="296" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600621631901">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="772" y="296" key="git4idea.branch.GitSmartOperationDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600621631901" />
   </component>
 </project>
